@@ -713,6 +713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clock
       objectReference: {fileID: 0}
+    - target: {fileID: 107124, guid: be4f93e5427de5a4d8b9a553a5795e31, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 439904, guid: be4f93e5427de5a4d8b9a553a5795e31, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4550896
@@ -7972,7 +7976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479486549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tabelset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8947,7 +8951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &584861770
 Transform:
   m_ObjectHideFlags: 0
@@ -11089,9 +11093,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lantern
       objectReference: {fileID: 0}
+    - target: {fileID: 181966, guid: ea9052647d64cc24f995ab2181beb102, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 443016, guid: ea9052647d64cc24f995ab2181beb102, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.565
       objectReference: {fileID: 0}
     - target: {fileID: 443016, guid: ea9052647d64cc24f995ab2181beb102, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11158,7 +11166,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cdc17a080a4ade644aea82625590b4ca, type: 3}
 --- !u!114 &739045888
@@ -12022,6 +12030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ashtray 1
       objectReference: {fileID: 0}
+    - target: {fileID: 113768, guid: 506561212616127448de20d0bd3a5cc7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 499336, guid: 506561212616127448de20d0bd3a5cc7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.01
@@ -12091,7 +12103,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 21b4c76faa73f2e4391422b55c34eb1d, type: 3}
 --- !u!114 &806933801
@@ -14255,6 +14267,10 @@ PrefabInstance:
     - target: {fileID: 108790, guid: ef18b6bdf635806409242cc1e63deb3e, type: 3}
       propertyPath: m_Name
       value: Piano Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 108790, guid: ef18b6bdf635806409242cc1e63deb3e, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 444720, guid: ef18b6bdf635806409242cc1e63deb3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17854,6 +17870,10 @@ PrefabInstance:
     - target: {fileID: 164984, guid: 10d443160213fd249990a4246012317d, type: 3}
       propertyPath: m_Name
       value: Piano
+      objectReference: {fileID: 0}
+    - target: {fileID: 164984, guid: 10d443160213fd249990a4246012317d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407904, guid: 10d443160213fd249990a4246012317d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26514,6 +26534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair 1
       objectReference: {fileID: 0}
+    - target: {fileID: 153882, guid: 58bdbd3eae1d9cd49a3735f03afc538c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 469180, guid: 58bdbd3eae1d9cd49a3735f03afc538c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.4519999
@@ -27482,6 +27506,10 @@ PrefabInstance:
     - target: {fileID: 153882, guid: 58bdbd3eae1d9cd49a3735f03afc538c, type: 3}
       propertyPath: m_Name
       value: Chair 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153882, guid: 58bdbd3eae1d9cd49a3735f03afc538c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 469180, guid: 58bdbd3eae1d9cd49a3735f03afc538c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28455,6 +28483,10 @@ PrefabInstance:
     - target: {fileID: 171108, guid: c7f0bc90249780c43b96ec99e99bbad0, type: 3}
       propertyPath: m_Name
       value: Round Table 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 171108, guid: c7f0bc90249780c43b96ec99e99bbad0, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 438972, guid: c7f0bc90249780c43b96ec99e99bbad0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29842,17 +29874,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mug
       objectReference: {fileID: 0}
+    - target: {fileID: 165594, guid: c4e76fd503c88754b80ad4a6aac4ee66, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 426226, guid: c4e76fd503c88754b80ad4a6aac4ee66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.73503065
       objectReference: {fileID: 0}
     - target: {fileID: 426226, guid: c4e76fd503c88754b80ad4a6aac4ee66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.025000036
+      value: -0.019
       objectReference: {fileID: 0}
     - target: {fileID: 426226, guid: c4e76fd503c88754b80ad4a6aac4ee66, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.617
+      value: 0.512
       objectReference: {fileID: 0}
     - target: {fileID: 426226, guid: c4e76fd503c88754b80ad4a6aac4ee66, type: 3}
       propertyPath: m_LocalRotation.x
@@ -29911,7 +29947,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: fb1c4fae2fb929f439d88b5076f4720b, type: 3}
 --- !u!114 &1859129481
@@ -30865,7 +30901,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907592272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a1ebaa51525b734287157cb3f53f958, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   precisionGrab: 0
@@ -30874,10 +30910,6 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
-  detachDistance: 1
-  velocityLimit: Infinity
-  angularVelocityLimit: Infinity
-  maxDistanceDelta: 10
 --- !u!114 &1907592280
 MonoBehaviour:
   m_ObjectHideFlags: 0
