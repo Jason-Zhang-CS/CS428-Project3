@@ -38,8 +38,9 @@
             if(near == 0){
                 OnTouch.Invoke(o, e);
                 near = 1;
+                
+                Debug.Log("Near: " +near);
             }
-            Debug.Log("Near: " +near);
         }
 
 
@@ -48,9 +49,10 @@
             if(near == 1){
                 OnNearUntouch.Invoke(o, e);
                 near = 0;
+                
+                Debug.Log("Away: " +near);
             }
             
-            Debug.Log("Away: " +near);
             
         }
 
